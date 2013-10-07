@@ -7,11 +7,11 @@ h1 {color: #FF7DC7;
 	background-color: #34A8B2;
 	padding: 10px;
 	border: 6px #FF7DC7 solid;
-	font-size: xx-large;
 	text-align: center;}
 
 h2 {color: #B2A33C;
-	font-size: x-large}
+	padding-left: 40px;
+	}
 
 a {
 	text-decoration: none;
@@ -22,6 +22,10 @@ a {
 a:visited {
 	color: #34A8B2;
 	}
+
+li {
+	padding: 10px 0px 10px 0px;
+}
 
 
 .right {
