@@ -1,12 +1,14 @@
 body {background-color: white;
 	font-family: 'Bubbler One', sans-serif;
+	width: 800px;
 	}
 
 h1 {color: #FF7DC7;
 	background-color: #34A8B2;
 	padding: 10px;
 	border: 6px #FF7DC7 solid;
-	font-size: xx-large}
+	font-size: xx-large;
+	text-align: center;}
 
 h2 {color: #B2A33C;
 	font-size: x-large}
@@ -21,14 +23,24 @@ a:visited {
 	color: #34A8B2;
 	}
 
-.resize {
-	width: 300px;
-	height: auto;
+
+.right {
+	float: right;
+	width: 270px;
+	padding: 20px;
+	border: 2px #34A8B2 solid;
+	margin: 20px 10px 10px 10px;
 }
 
-.resize img {
+.left {
 	float: left;
-	text-align: center;
-	margin: auto;
-	padding: 40px;
+	width: 400px;
+	padding: 20px;
+	border: 2px #34A8B2 solid;
+	margin: 10px; 
 }
+
+#page-header {
+	text-align: center;
+}
+
