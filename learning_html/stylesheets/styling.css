@@ -1,0 +1,33 @@
+body {background-color: white;
+	}
+
+h1 {color: #FF7DC7;
+	background-color: #34A8B2;
+	padding: 10px;
+	border: 6px #FF7DC7 solid;
+	font-size: xx-large}
+
+h2 {color: #B2A33C;
+	font-size: x-large}
+
+a {
+	text-decoration: none;
+	color: #34A8B2;
+	font-size: large;
+	}
+
+a:visited {
+	color: #34A8B2;
+	}
+
+.resize {
+	width: 300px;
+	height: auto;
+}
+
+.resize img {
+	float: left;
+	text-align: center;
+	margin: auto;
+	padding: 40px;
+}
